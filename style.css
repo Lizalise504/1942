@@ -1,0 +1,68 @@
+body{
+    background:linear-gradient(90deg,rgba(0, 0, 0, 0.4),rgba(223, 186, 24, 0.2), rgba(0, 100, 0, 0.4));
+}
+#gameboard{
+    background: url('background.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:1000px;
+    height:550px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+#hero{
+    background: url('1942.gif');
+    background-position: -40px -110px;
+    width:50px;
+    height:50px;
+    position:absolute;
+}
+.enemy1{
+    background: url('1942.gif');
+    background-position: -30px -10px;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.enemy2{
+    background: url('1942.gif');
+    background-position: -150px -10px;
+    width:28px;
+    height:23px;
+    position:absolute;
+}
+.bullet{
+    background: url('1942.gif');
+    background-position: -185px -400px;
+    width:18px;
+    height:18px;
+    position:absolute;
+}
+.explosion{
+    background: url('1942.gif');
+    background-position: -140px -30px;
+    width:30px;
+    height:30px;
+    position:absolute;
+}
+#score{
+    /* position:absolute; */
+    border:5px solid rgb(0, 102, 255);
+    color: rgb(0, 102, 255);
+    width: 2.2em;
+    height: 2.2em;
+    text-align: center;
+    padding-top: 1em;
+    background-color:white;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    border-radius: 1.2em;
+}
+h1{
+    font-size: 2em;
+    margin: auto;
+    color: aliceblue;
+    font-family: cursive;
+}
